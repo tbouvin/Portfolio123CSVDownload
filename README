@@ -1,0 +1,10 @@
+Selenium is required along with the Chrome WebDriver
+
+Install Selenium
+    pip install selenium
+
+Install Chrome Web Driver
+    https://sites.google.com/a/chromium.org/chromedriver/downloads
+    Add the path driver to your path
+
+python main.py -u <username> -p <password>
