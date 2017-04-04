@@ -1,0 +1,1 @@
+C:\Users\tbouv\AppData\Local\Programs\Python\Python36\Scripts\pip install selenium
