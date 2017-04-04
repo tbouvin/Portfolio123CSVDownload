@@ -51,16 +51,16 @@ def main(argv):
 
 #Try using chrome webdriver first. If that fails use Firefox
 	driver = None
-	try:
-		driver = webdriver.Chrome()
-	except FileNotFoundError:
-		print('Chrome web driver not found')
-		print('Trying Firefox')
-		try:
-			driver = webdriver.Firefox()
-		except FileNotFoundError:
-			print('Firefox web driver not found')
-			exit()
+	# try:
+	driver = webdriver.Chrome()
+	# except FileNotFoundError:
+	# 	print('Chrome web driver not found')
+	# 	print('Trying Firefox')
+	# 	try:
+	# 		driver = webdriver.Firefox()
+	# 	except FileNotFoundError:
+	# 		print('Firefox web driver not found')
+	# 		exit()
 
 #Start selenium and go to login jpage
 	driver.get("https://www.portfolio123.com/login.jsp?url=/")
